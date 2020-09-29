@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Linux Terminal</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<body id="Linux">
+<style>
+#Linux{
+  height: 55px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f5f7fa;
+  background-image: url('https://cystory-images.s3.amazonaws.com/docker.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+</style>
+<br>
+<center><b><h2>DOCKER PORTAL</h2></b>
+<br>
+<form action ="http://13.233.92.195/cgi-bin/docker.py">
+Enter your Container name <input type='text' name='a' />
+<br/>
+<br>
+Select Your Os image name:
+<select name='z'>
+	<option>ubuntu:14.04<option>
+	<option>centos:latest<option>
+	<option>httpd:latest<option>
+</select>
+
+<br/>
+<br>
+<input type='submit' />
+<form>
+</body>
+</html>
