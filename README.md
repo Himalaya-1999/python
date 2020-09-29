@@ -1,6 +1,7 @@
 This project Contains Web UI of Linux Server
 Here you just need to provide the Linux Commands and its output will be displayed on the browser window 
 Just Clone these files and change the ip address according to your Linux server
+
 In your Linux Server :
 
 yum install httpd -y   ----> To install apache webserver
